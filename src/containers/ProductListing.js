@@ -20,7 +20,6 @@ const ProductListing = () => {
     fetchProducts();
   }, [dispatch]);
   console.log(products);
-
   return (
     <div className="ui grid container listing">
       <ProductComponent />
